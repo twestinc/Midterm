@@ -6,7 +6,7 @@
  <?php get_header(); ?>
  <div id = "wrapper" class = "clearfix">
 	 <main>
-		 <b>tag-real-character template</b><br>
+		 <b>tag real character template</b><br>
 		 <b>Start WordPress Loop</b><br>
 		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 		
@@ -26,8 +26,8 @@
 		<div id="sidebar-primary" class="sidebar">
 			<?php //dynamic_sidebar( 'sidebar-2' ); ?>
 		</div>
-		<?php  get_sidebar(); ?><br>
-		<?php  //get_sidebar('sidebar-1'); ?><br>
+		<?php  //get_sidebar(); ?><br>
+		<?php  get_sidebar('sidebar-1'); ?><br>
 		<?php  //get_sidebar('sidebar-2'); ?>
 	 </div> <!-- sidebar -->
  </div><!-- wrapper -->

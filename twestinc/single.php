@@ -23,8 +23,8 @@ Template Name: Single Template
 		<div id="sidebar-primary" class="sidebar">
 			<?php //dynamic_sidebar( 'sidebar-2' ); ?>
 		</div>
-		<?php  get_sidebar(); ?><br>
-		<?php  //get_sidebar('sidebar-1'); ?><br>
+		<?php // get_sidebar(); ?><br>
+		<?php  get_sidebar('sidebar-1'); ?><br>
 		<?php  //get_sidebar('sidebar-2'); ?>
 	 </div> <!-- sidebar -->
  </div>

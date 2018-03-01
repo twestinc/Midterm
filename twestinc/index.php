@@ -23,16 +23,16 @@
 		<?php endif; ?>
 		<b>End WordPress Loop</b>
 	 </main>
-	 <div id = "sidebar">
+  <div id = "sidebar">
 		<div id="sidebar-primary" class="sidebar">
 			<?php //dynamic_sidebar( 'sidebar-1' ); ?>
 		</div>
 		<div id="sidebar-primary" class="sidebar">
 			<?php //dynamic_sidebar( 'sidebar-2' ); ?>
 		</div>
-		<?php  get_sidebar(); ?><br>
-		<?php  //get_sidebar('sidebar-1'); ?><br>
+		<?php  //get_sidebar(); ?><br>
+		<?php  get_sidebar('sidebar-1'); ?><br>
 		<?php  //get_sidebar('sidebar-2'); ?>
 	 </div> <!-- sidebar -->
- </div><!-- wrapper -->
+ </div>
 <?php get_footer(); ?>
